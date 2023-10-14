@@ -16,7 +16,8 @@ createInertiaApp({
 	  .use(createPinia())
       .mount(el);
   },
-})```
+})
+```
 
 Теперь pinia глобально установлена.
 
