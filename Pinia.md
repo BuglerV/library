@@ -13,7 +13,7 @@ createInertiaApp({
   setup({ el, App, props, plugin }) {
     const a = createApp({ render: () => h(App, props) })
       .use(plugin)
-	  .use(createPinia())
+      .use(createPinia())
       .mount(el);
   },
 })
@@ -40,6 +40,7 @@ export default useBaseStore;
 
 ```import useBaseStore from './baseStore';
 
-const baseStore = useBaseStore();```
+const baseStore = useBaseStore();
+```
 
 Дальше переменная baseStore используется как обычно.
