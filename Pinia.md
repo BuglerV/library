@@ -6,7 +6,8 @@
 
 ## Подключение к Vue3
 
-```import { createPinia } from 'pinia';
+```
+import { createPinia } from 'pinia';
 import { createInertiaApp } from '@inertiajs/vue3';
 
 createInertiaApp({
@@ -23,7 +24,8 @@ createInertiaApp({
 
 ## Создание хранилища
 
-```import { defineStore } from 'pinia';
+```
+import { defineStore } from 'pinia';
 
 const useBaseStore = defineStore('baseStore', {
 	state() {
@@ -38,7 +40,8 @@ export default useBaseStore;
 
 ## Подключаем созданное хранилище
 
-```import useBaseStore from './baseStore';
+```
+import useBaseStore from './baseStore';
 
 const baseStore = useBaseStore();
 ```
