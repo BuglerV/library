@@ -28,11 +28,11 @@ createInertiaApp({
 import { defineStore } from 'pinia';
 
 const useBaseStore = defineStore('baseStore', {
-	state() {
-		return {
-			name: 'Alfa',
-		}
-	}
+  state() {
+    return {
+      name: 'Alfa',
+    }
+  }
 });
 
 export default useBaseStore;
